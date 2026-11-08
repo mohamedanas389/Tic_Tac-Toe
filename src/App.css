@@ -1,0 +1,30 @@
+.container{
+  text-align: center;;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,90px);
+  gap: 8px;
+  justify-content: center;
+  margin: 25px;
+}
+.cell{
+  width: 90px;
+  height: 90px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgb(28, 24, 44);
+  border-radius: 10px;
+  background: wheat;
+}
+.restart{
+  padding: 12px 25px;
+  background: rgb(245, 2, 2);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
